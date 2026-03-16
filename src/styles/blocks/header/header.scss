@@ -1,0 +1,16 @@
+.header {
+  padding: 0 50px;
+  box-shadow: 0 2px 4px 0 getcolor('header-box-shadow-color');
+
+  &__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.logo {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
