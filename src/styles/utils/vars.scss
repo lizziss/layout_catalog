@@ -4,11 +4,15 @@ $layout-viewport-width-m: 768px;
 $layout-viewport-width-l: 1024px;
 
 // block: catalog
-$catalog-padding-inline: 50px;
-$catalog-padding-block: 40px;
+$catalog-padding-inline: 40px;
+$catalog-padding-block: 50px;
 $catalog-gap-vertical: 46px;
 $catalog-gap-horizontal: 48px;
 
 // block: card
 $product-card-width: 200px;
 $star-size: 16px;
+$star-gap: 4px;
+
+// timing
+$transition-duration: 300ms;
