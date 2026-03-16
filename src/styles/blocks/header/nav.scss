@@ -5,16 +5,16 @@
   }
 
   &__item:not(:last-child) {
-    margin-right: 20px;
+    margin-right: $header-nav-gap;
   }
 
   &__link {
-    height: 60px;
-    display: inline-flex;
-    align-items: center;
     text-transform: uppercase;
-    font-size: 12px;
-    transition: color 300ms ease;
+    align-items: center;
+    line-height: $header-height;
+    font-size: $font-size-s;
+    transition: color $transition-duration;
+    display: block;
 
     &:hover {
       color: getcolor('blue-accent-color');
@@ -32,9 +32,9 @@
       bottom: 0;
       left: 0;
       width: 100%;
-      height: 4px;
+      height: $nav-active-height;
       background-color: getcolor('blue-accent-color');
-      border-radius: 2px;
+      border-radius: $nav-active-radius;
     }
   }
 }
